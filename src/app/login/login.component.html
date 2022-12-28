@@ -1,0 +1,16 @@
+<div style="width: 600px; margin-top: 100px;  background-color: rgb(77, 218, 218);" class="d1 container form-control p-4"> 
+    <h2 style="text-align: center;">Login</h2>
+    <br><br>
+    <form  (ngSubmit)="LoginTo()">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">User Name</label>
+            <input type="name" name="name" [(ngModel)]="name" class="form-control" id="exampleInputEmail1">
+            
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password"  [(ngModel)]="password" name="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button style="margin-left: 216px;" type="submit" class="btn btn-warning">Login</button>
+    </form><br>
+</div>

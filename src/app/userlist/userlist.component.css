@@ -1,0 +1,6 @@
+tr,td,th{
+    border:1px solid black;
+    height: 65px;
+    width: 221px;
+    padding-left: 60px;
+}

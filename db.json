@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "asdfg",
+      "email": "okojkbjhgv",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "basila",
+      "email": "basila@gmail",
+      "status": "Inactive"
+    },
+    {
+      "id": "3",
+      "name": "fiza",
+      "email": "f123",
+      "status": "Active"
+    }
+  ]
+}
